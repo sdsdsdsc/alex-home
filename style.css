@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #fafafa;
+  margin: 0;
+  padding: 2em;
+}
+
+h1 {
+  color: #333;
+}
+
+.form-container {
+  margin: 1.5em 0;
+}
+
+#postInput {
+  width: 250px;
+  padding: 0.5em;
+}
+
+#postBtn {
+  padding: 0.5em 1em;
+  cursor: pointer;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#posts {
+  margin-top: 2em;
+}
+
+.post {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  padding: 1em;
+  margin: 1em auto;
+  width: 300px;
+}
