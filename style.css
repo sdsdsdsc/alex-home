@@ -40,3 +40,17 @@ h1 {
   margin: 1em auto;
   width: 300px;
 }
+.like-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.like-btn:hover {
+  background-color: #ff1a1a;
+}
