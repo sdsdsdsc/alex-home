@@ -1,3 +1,6 @@
+import { getStorage } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-storage.js";
+
+export const storage = getStorage(app);
 // Import Firebase SDK modules from CDN
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
 import { getFirestore } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
